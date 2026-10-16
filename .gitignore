@@ -1,0 +1,27 @@
+```gitignore
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android 构建产物
+**/build/
+
+# Kotlin 缓存
+.kotlin/
+
+# 签名密钥
+*.jks
+*.keystore
+```
